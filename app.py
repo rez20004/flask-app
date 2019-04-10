@@ -15,5 +15,5 @@ def health():
 if __name__ == '__main__':
     app.logger.setLevel(logging.INFO)
     app.logger.info('Starting app')
-    app.run(host='192.168.100.10', port=8080)
+    app.run(host='172.30.97.123' , port=8080)
 
